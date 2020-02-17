@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".UploadPdf"
+    android:layout_margin="1dp"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@drawable/border"
+    android:scrollbars="vertical"
+    android:scrollbarStyle="insideInset">
+
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Select PastPaper to Upload"
+        android:id="@+id/button"
+        android:textStyle="bold"
+        />
+
+   <EditText
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:hint="Year(1/2/3/4)"
+       android:id="@+id/year"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/editText"
+        android:hint="Course(/COMPSCI/BICT)"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/unitname"
+        android:hint="UnitName (ARTIFICIAL INTELLIGENCE"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/unitcode"
+        android:hint="UnitCode(COMP 302)"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/lecturer"
+        android:hint="LecturerName (Sir/DR/Prof/MIss/Madam Ireri"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/button2"
+        android:text="Upload PastPaper"
+        android:textStyle="bold"
+        />
+
+
+</LinearLayout>
